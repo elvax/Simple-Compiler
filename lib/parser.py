@@ -111,7 +111,7 @@ class Parser(object):
         p[0] = ("arr", p[1], p[3], p.lineno(1))
 
     def p_error(self, p):
-        logging.error("Syntax error '{p.value}' in line {p.lineno}")
+        logging.error(f"Syntax error '{p.value}' in line {p.lineno}")
         raise CompilerError()
 
     def p_empty(self, p):
