@@ -1,8 +1,8 @@
-Requirements:
+##Requirements:
     Python 3.6.8
     ply 3.11
 
-Usage:
+##Usage:
     ```python3 main.py <input> <output>```
 
 or after: ```chmod +x main.py```
