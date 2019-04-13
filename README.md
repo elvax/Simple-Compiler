@@ -1,4 +1,4 @@
-Simple compiler for C-like language. Full specification in [labor4.pdf](labor4.pdf)
+Simple compiler for C-like language. Full specification in [labor4.pdf](labor4.pdf) [PL]
 
 ## Requirements:
     Python 3.6.8
